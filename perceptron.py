@@ -23,3 +23,5 @@ def __init__(self,eta=0.01,n_iter=10,random_seed=1):
 	
 	def predict(self,X):
 		return np.where(self.net_input(X) >= 0.0, 1, -1)
+		
+#jakas zmiana
